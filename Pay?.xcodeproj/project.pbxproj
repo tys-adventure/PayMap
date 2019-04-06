@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7FB3B6972258F91F005E7A2D /* MenuLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB3B6962258F91F005E7A2D /* MenuLauncher.swift */; };
+		7FB3B6992258F92B005E7A2D /* MenuLauncherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB3B6982258F92B005E7A2D /* MenuLauncherCell.swift */; };
 		7FCFDAAE2256B86E00F7BEA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCFDAAD2256B86E00F7BEA0 /* AppDelegate.swift */; };
 		7FCFDAB02256B86E00F7BEA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCFDAAF2256B86E00F7BEA0 /* ViewController.swift */; };
 		7FCFDAB62256B86E00F7BEA0 /* Pay_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7FCFDAB42256B86E00F7BEA0 /* Pay_.xcdatamodeld */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7FB3B6962258F91F005E7A2D /* MenuLauncher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuLauncher.swift; sourceTree = "<group>"; };
+		7FB3B6982258F92B005E7A2D /* MenuLauncherCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuLauncherCell.swift; sourceTree = "<group>"; };
 		7FCFDAAA2256B86E00F7BEA0 /* Pay?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pay?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FCFDAAD2256B86E00F7BEA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FCFDAAF2256B86E00F7BEA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +80,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7FB3B6952258F90F005E7A2D /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				7FB3B6962258F91F005E7A2D /* MenuLauncher.swift */,
+				7FB3B6982258F92B005E7A2D /* MenuLauncherCell.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
 		7FCFDAA12256B86E00F7BEA0 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +112,7 @@
 		7FCFDAAC2256B86E00F7BEA0 /* Pay? */ = {
 			isa = PBXGroup;
 			children = (
+				7FB3B6952258F90F005E7A2D /* Menu */,
 				7FCFDAAD2256B86E00F7BEA0 /* AppDelegate.swift */,
 				7FCFDAAF2256B86E00F7BEA0 /* ViewController.swift */,
 				7FCFDADE2256B97600F7BEA0 /* Main.storyboard */,
@@ -259,6 +273,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FB3B6992258F92B005E7A2D /* MenuLauncherCell.swift in Sources */,
+				7FB3B6972258F91F005E7A2D /* MenuLauncher.swift in Sources */,
 				7FCFDAB02256B86E00F7BEA0 /* ViewController.swift in Sources */,
 				7FCFDAB62256B86E00F7BEA0 /* Pay_.xcdatamodeld in Sources */,
 				7FCFDAAE2256B86E00F7BEA0 /* AppDelegate.swift in Sources */,
@@ -429,7 +445,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L4H9LZ77XG;
+				DEVELOPMENT_TEAM = S86X46J5MH;
 				INFOPLIST_FILE = "Pay?/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -447,7 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L4H9LZ77XG;
+				DEVELOPMENT_TEAM = S86X46J5MH;
 				INFOPLIST_FILE = "Pay?/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

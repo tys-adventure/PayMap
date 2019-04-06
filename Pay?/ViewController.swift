@@ -13,25 +13,28 @@ import CoreLocation
 class ViewController: UIViewController {
     
     // MARK: - Properties
+    let menuLauncher = MenuLauncher()
+    @IBOutlet weak var menuButton: UIButton!
     @IBOutlet weak var mapView: MKMapView!
     let locationManager = CLLocationManager()
     let regionInMeters: Double = 10000
     
     // MARK: - View life cycle
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // set initial location in Honolulu
-
-        checkLocationServices()
-        mapView?.delegate = self
-        view.addSubview(mapView)
-    }
     
+        mapView.delegate = self
+        checkLocationServices()
+        view.addSubview(mapView)
+        view.addSubview(menuButton)
+    }
+    @IBAction func MenuShow(_ sender: Any) {
+        menuLauncher.showMenu()
+    }
+        
     func setupLocationManager() {
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
-        
     }
     
     func checkLocationServices() {
@@ -80,15 +83,17 @@ class ViewController: UIViewController {
 }
 
 // MARK: - MKMapViewDelegate
-
 extension ViewController: MKMapViewDelegate {
     
-
-    
+//    func mapView(_ mapView: MKMapView, didUpdate
+//        userLocation: MKUserLocation) {
+//        mapView.centerCoordinate = userLocation.location!.coordinate
+//    }
 }
 
 extension ViewController: CLLocationManagerDelegate {
     
+    //This delegate is buggy af and doesn't let you pan on mapView
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         guard let location = locations.last else { return }
         let center = CLLocationCoordinate2D(latitude: location.coordinate.latitude, longitude: location.coordinate.longitude)
@@ -97,7 +102,7 @@ extension ViewController: CLLocationManagerDelegate {
     }
     
     func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
-        checkLocationAuthorizationStatus()
+//        checkLocationAuthorizationStatus()
     }
     
 }
