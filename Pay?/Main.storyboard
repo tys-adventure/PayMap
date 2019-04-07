@@ -22,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ZW-rs-YIW">
-                                <rect key="frame" x="24" y="806" width="74" height="30"/>
+                                <rect key="frame" x="24" y="94" width="74" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Menu">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -42,13 +42,12 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="4ZW-rs-YIW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="8ze-9c-5hm"/>
                             <constraint firstItem="A5g-Mz-5lF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="9Cm-ZU-yfA"/>
                             <constraint firstItem="4ZW-rs-YIW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="4" id="DHC-cL-lC8"/>
                             <constraint firstAttribute="trailing" secondItem="A5g-Mz-5lF" secondAttribute="trailing" id="EV1-Ii-SZn"/>
                             <constraint firstAttribute="bottom" secondItem="A5g-Mz-5lF" secondAttribute="bottom" constant="-44" id="T0f-aR-aKL"/>
-                            <constraint firstItem="4ZW-rs-YIW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="762" id="ZYS-am-R4F"/>
                             <constraint firstItem="A5g-Mz-5lF" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="44" id="eux-BE-xTC"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4ZW-rs-YIW" secondAttribute="bottom" constant="26" id="r6U-zn-AhT"/>
                             <constraint firstAttribute="trailingMargin" secondItem="4ZW-rs-YIW" secondAttribute="trailing" constant="296" id="tTZ-Kx-LNh"/>
                         </constraints>
                     </view>
