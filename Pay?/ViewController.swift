@@ -11,10 +11,29 @@ import MapKit
 import CoreLocation
 
 class ViewController: UIViewController {
+
+    enum CardState {
+        case expanded
+        case collapsed
+    }
     
+    var cardViewController: CardViewController!
+    //var visualEffectView:UIVisualEffectView!
+    
+    var cellHeight: CGFloat! = 40//40
+    var cardHeight: CGFloat = 100 + 40 * 6 + 7 * 30
+    
+    let cardHandleAreaHeight: CGFloat = 125//56
+    
+    var cardVisible = false
+    var nextState: CardState {
+        return cardVisible ? .collapsed : .expanded
+    }
+    
+    var runningAnimations = [UIViewPropertyAnimator]()
+    var animationProgressWhenInterrupted:CGFloat = 0
+
     // MARK: - Properties
-    let menuLauncher = MenuLauncher()
-    @IBOutlet weak var menuButton: UIButton!
     @IBOutlet weak var mapView: MKMapView!
     let locationManager = CLLocationManager()
     let regionInMeters: Double = 10000
@@ -23,15 +42,26 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     
-        mapView.delegate = self
-        checkLocationServices()
-        view.addSubview(mapView)
-        view.addSubview(menuButton)
-    }
-    @IBAction func MenuShow(_ sender: Any) {
-        menuLauncher.showMenu()
-    }
+        cellHeight = self.view.frame.width * 0.375 / 7 //3
         
+        let spacingRoomBetweenCells = 7 * 30
+        cardHeight = 100 + cellHeight * 6 + CGFloat(spacingRoomBetweenCells)
+        // * 6 because 11 /2 = 6
+        // * 7 because 6 + 1 extra room undernaeat
+        //30 = spacing between cells
+        
+        mapView.mapType = .mutedStandard
+        mapView.delegate = self
+        
+        checkLocationServices()
+        setupCard()
+        view.addSubview(mapView)
+
+        self.cardViewController.view.layer.cornerRadius = 12
+        self.cardViewController.view.clipsToBounds = true
+
+    }
+   
     func setupLocationManager() {
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
