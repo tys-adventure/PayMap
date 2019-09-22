@@ -16,7 +16,6 @@
 		7FBCBD792290502E007F0056 /* MenuOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBCBD782290502E007F0056 /* MenuOptionCell.swift */; };
 		7FCFDAAE2256B86E00F7BEA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCFDAAD2256B86E00F7BEA0 /* AppDelegate.swift */; };
 		7FCFDAB02256B86E00F7BEA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCFDAAF2256B86E00F7BEA0 /* ViewController.swift */; };
-		7FCFDAB62256B86E00F7BEA0 /* Pay_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7FCFDAB42256B86E00F7BEA0 /* Pay_.xcdatamodeld */; };
 		7FCFDAB82256B87100F7BEA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FCFDAB72256B87100F7BEA0 /* Assets.xcassets */; };
 		7FCFDABB2256B87200F7BEA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FCFDAB92256B87200F7BEA0 /* LaunchScreen.storyboard */; };
 		7FCFDAC62256B87200F7BEA0 /* Pay_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCFDAC52256B87200F7BEA0 /* Pay_Tests.swift */; };
@@ -48,17 +47,16 @@
 		7FBCBD7422904EB1007F0056 /* GenresCardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GenresCardViewController.xib; sourceTree = "<group>"; };
 		7FBCBD7622904ED4007F0056 /* CardViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewExtension.swift; sourceTree = "<group>"; };
 		7FBCBD782290502E007F0056 /* MenuOptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOptionCell.swift; sourceTree = "<group>"; };
-		7FCFDAAA2256B86E00F7BEA0 /* Pay?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pay?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FCFDAAA2256B86E00F7BEA0 /* PayMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FCFDAAD2256B86E00F7BEA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FCFDAAF2256B86E00F7BEA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7FCFDAB52256B86E00F7BEA0 /* Pay_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pay_.xcdatamodel; sourceTree = "<group>"; };
 		7FCFDAB72256B87100F7BEA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FCFDABA2256B87200F7BEA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FCFDABC2256B87200F7BEA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7FCFDAC12256B87200F7BEA0 /* Pay?Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pay?Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FCFDAC12256B87200F7BEA0 /* PayMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FCFDAC52256B87200F7BEA0 /* Pay_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pay_Tests.swift; sourceTree = "<group>"; };
 		7FCFDAC72256B87200F7BEA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7FCFDACC2256B87200F7BEA0 /* Pay?UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pay?UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FCFDACC2256B87200F7BEA0 /* PayMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FCFDAD02256B87200F7BEA0 /* Pay_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pay_UITests.swift; sourceTree = "<group>"; };
 		7FCFDAD22256B87200F7BEA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,9 +100,9 @@
 		7FCFDAA12256B86E00F7BEA0 = {
 			isa = PBXGroup;
 			children = (
-				7FCFDAAC2256B86E00F7BEA0 /* Pay? */,
-				7FCFDAC42256B87200F7BEA0 /* Pay?Tests */,
-				7FCFDACF2256B87200F7BEA0 /* Pay?UITests */,
+				7FCFDAAC2256B86E00F7BEA0 /* PayMap */,
+				7FCFDAC42256B87200F7BEA0 /* PayMapTests */,
+				7FCFDACF2256B87200F7BEA0 /* PayMapUITests */,
 				7FCFDAAB2256B86E00F7BEA0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -112,14 +110,14 @@
 		7FCFDAAB2256B86E00F7BEA0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7FCFDAAA2256B86E00F7BEA0 /* Pay?.app */,
-				7FCFDAC12256B87200F7BEA0 /* Pay?Tests.xctest */,
-				7FCFDACC2256B87200F7BEA0 /* Pay?UITests.xctest */,
+				7FCFDAAA2256B86E00F7BEA0 /* PayMap.app */,
+				7FCFDAC12256B87200F7BEA0 /* PayMapTests.xctest */,
+				7FCFDACC2256B87200F7BEA0 /* PayMapUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7FCFDAAC2256B86E00F7BEA0 /* Pay? */ = {
+		7FCFDAAC2256B86E00F7BEA0 /* PayMap */ = {
 			isa = PBXGroup;
 			children = (
 				7FBCBD7122904E56007F0056 /* Menu */,
@@ -131,35 +129,34 @@
 				7FCFDAB72256B87100F7BEA0 /* Assets.xcassets */,
 				7FCFDAB92256B87200F7BEA0 /* LaunchScreen.storyboard */,
 				7FCFDABC2256B87200F7BEA0 /* Info.plist */,
-				7FCFDAB42256B86E00F7BEA0 /* Pay_.xcdatamodeld */,
 			);
-			path = "Pay?";
+			path = PayMap;
 			sourceTree = "<group>";
 		};
-		7FCFDAC42256B87200F7BEA0 /* Pay?Tests */ = {
+		7FCFDAC42256B87200F7BEA0 /* PayMapTests */ = {
 			isa = PBXGroup;
 			children = (
 				7FCFDAC52256B87200F7BEA0 /* Pay_Tests.swift */,
 				7FCFDAC72256B87200F7BEA0 /* Info.plist */,
 			);
-			path = "Pay?Tests";
+			path = PayMapTests;
 			sourceTree = "<group>";
 		};
-		7FCFDACF2256B87200F7BEA0 /* Pay?UITests */ = {
+		7FCFDACF2256B87200F7BEA0 /* PayMapUITests */ = {
 			isa = PBXGroup;
 			children = (
 				7FCFDAD02256B87200F7BEA0 /* Pay_UITests.swift */,
 				7FCFDAD22256B87200F7BEA0 /* Info.plist */,
 			);
-			path = "Pay?UITests";
+			path = PayMapUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7FCFDAA92256B86E00F7BEA0 /* Pay? */ = {
+		7FCFDAA92256B86E00F7BEA0 /* PayMap */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FCFDAD52256B87200F7BEA0 /* Build configuration list for PBXNativeTarget "Pay?" */;
+			buildConfigurationList = 7FCFDAD52256B87200F7BEA0 /* Build configuration list for PBXNativeTarget "PayMap" */;
 			buildPhases = (
 				7FCFDAA62256B86E00F7BEA0 /* Sources */,
 				7FCFDAA72256B86E00F7BEA0 /* Frameworks */,
@@ -169,14 +166,14 @@
 			);
 			dependencies = (
 			);
-			name = "Pay?";
+			name = PayMap;
 			productName = "Pay?";
-			productReference = 7FCFDAAA2256B86E00F7BEA0 /* Pay?.app */;
+			productReference = 7FCFDAAA2256B86E00F7BEA0 /* PayMap.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7FCFDAC02256B87200F7BEA0 /* Pay?Tests */ = {
+		7FCFDAC02256B87200F7BEA0 /* PayMapTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FCFDAD82256B87200F7BEA0 /* Build configuration list for PBXNativeTarget "Pay?Tests" */;
+			buildConfigurationList = 7FCFDAD82256B87200F7BEA0 /* Build configuration list for PBXNativeTarget "PayMapTests" */;
 			buildPhases = (
 				7FCFDABD2256B87200F7BEA0 /* Sources */,
 				7FCFDABE2256B87200F7BEA0 /* Frameworks */,
@@ -187,14 +184,14 @@
 			dependencies = (
 				7FCFDAC32256B87200F7BEA0 /* PBXTargetDependency */,
 			);
-			name = "Pay?Tests";
+			name = PayMapTests;
 			productName = "Pay?Tests";
-			productReference = 7FCFDAC12256B87200F7BEA0 /* Pay?Tests.xctest */;
+			productReference = 7FCFDAC12256B87200F7BEA0 /* PayMapTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7FCFDACB2256B87200F7BEA0 /* Pay?UITests */ = {
+		7FCFDACB2256B87200F7BEA0 /* PayMapUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FCFDADB2256B87200F7BEA0 /* Build configuration list for PBXNativeTarget "Pay?UITests" */;
+			buildConfigurationList = 7FCFDADB2256B87200F7BEA0 /* Build configuration list for PBXNativeTarget "PayMapUITests" */;
 			buildPhases = (
 				7FCFDAC82256B87200F7BEA0 /* Sources */,
 				7FCFDAC92256B87200F7BEA0 /* Frameworks */,
@@ -205,9 +202,9 @@
 			dependencies = (
 				7FCFDACE2256B87200F7BEA0 /* PBXTargetDependency */,
 			);
-			name = "Pay?UITests";
+			name = PayMapUITests;
 			productName = "Pay?UITests";
-			productReference = 7FCFDACC2256B87200F7BEA0 /* Pay?UITests.xctest */;
+			productReference = 7FCFDACC2256B87200F7BEA0 /* PayMapUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -233,7 +230,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7FCFDAA52256B86E00F7BEA0 /* Build configuration list for PBXProject "Pay?" */;
+			buildConfigurationList = 7FCFDAA52256B86E00F7BEA0 /* Build configuration list for PBXProject "PayMap" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -246,9 +243,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7FCFDAA92256B86E00F7BEA0 /* Pay? */,
-				7FCFDAC02256B87200F7BEA0 /* Pay?Tests */,
-				7FCFDACB2256B87200F7BEA0 /* Pay?UITests */,
+				7FCFDAA92256B86E00F7BEA0 /* PayMap */,
+				7FCFDAC02256B87200F7BEA0 /* PayMapTests */,
+				7FCFDACB2256B87200F7BEA0 /* PayMapUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -290,7 +287,6 @@
 				27C367FA233795C70027C03C /* ContentView.swift in Sources */,
 				7FBCBD792290502E007F0056 /* MenuOptionCell.swift in Sources */,
 				7FCFDAB02256B86E00F7BEA0 /* ViewController.swift in Sources */,
-				7FCFDAB62256B86E00F7BEA0 /* Pay_.xcdatamodeld in Sources */,
 				7FBCBD7722904ED4007F0056 /* CardViewExtension.swift in Sources */,
 				27C367FC233797550027C03C /* MapView.swift in Sources */,
 				7FCFDAAE2256B86E00F7BEA0 /* AppDelegate.swift in Sources */,
@@ -318,12 +314,12 @@
 /* Begin PBXTargetDependency section */
 		7FCFDAC32256B87200F7BEA0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7FCFDAA92256B86E00F7BEA0 /* Pay? */;
+			target = 7FCFDAA92256B86E00F7BEA0 /* PayMap */;
 			targetProxy = 7FCFDAC22256B87200F7BEA0 /* PBXContainerItemProxy */;
 		};
 		7FCFDACE2256B87200F7BEA0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7FCFDAA92256B86E00F7BEA0 /* Pay? */;
+			target = 7FCFDAA92256B86E00F7BEA0 /* PayMap */;
 			targetProxy = 7FCFDACD2256B87200F7BEA0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -462,7 +458,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S86X46J5MH;
-				INFOPLIST_FILE = "Pay?/Info.plist";
+				INFOPLIST_FILE = PayMap/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -481,7 +477,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S86X46J5MH;
-				INFOPLIST_FILE = "Pay?/Info.plist";
+				INFOPLIST_FILE = PayMap/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -501,7 +497,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L4H9LZ77XG;
-				INFOPLIST_FILE = "Pay?Tests/Info.plist";
+				INFOPLIST_FILE = PayMapTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -511,7 +507,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pay?.app/Pay?";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayMap.app/PayMap";
 			};
 			name = Debug;
 		};
@@ -522,7 +518,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L4H9LZ77XG;
-				INFOPLIST_FILE = "Pay?Tests/Info.plist";
+				INFOPLIST_FILE = PayMapTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -532,7 +528,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pay?.app/Pay?";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayMap.app/PayMap";
 			};
 			name = Release;
 		};
@@ -542,7 +538,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L4H9LZ77XG;
-				INFOPLIST_FILE = "Pay?UITests/Info.plist";
+				INFOPLIST_FILE = PayMapUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -552,7 +548,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Pay?";
+				TEST_TARGET_NAME = PayMap;
 			};
 			name = Debug;
 		};
@@ -562,7 +558,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L4H9LZ77XG;
-				INFOPLIST_FILE = "Pay?UITests/Info.plist";
+				INFOPLIST_FILE = PayMapUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -572,14 +568,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Pay?";
+				TEST_TARGET_NAME = PayMap;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7FCFDAA52256B86E00F7BEA0 /* Build configuration list for PBXProject "Pay?" */ = {
+		7FCFDAA52256B86E00F7BEA0 /* Build configuration list for PBXProject "PayMap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7FCFDAD32256B87200F7BEA0 /* Debug */,
@@ -588,7 +584,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7FCFDAD52256B87200F7BEA0 /* Build configuration list for PBXNativeTarget "Pay?" */ = {
+		7FCFDAD52256B87200F7BEA0 /* Build configuration list for PBXNativeTarget "PayMap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7FCFDAD62256B87200F7BEA0 /* Debug */,
@@ -597,7 +593,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7FCFDAD82256B87200F7BEA0 /* Build configuration list for PBXNativeTarget "Pay?Tests" */ = {
+		7FCFDAD82256B87200F7BEA0 /* Build configuration list for PBXNativeTarget "PayMapTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7FCFDAD92256B87200F7BEA0 /* Debug */,
@@ -606,7 +602,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7FCFDADB2256B87200F7BEA0 /* Build configuration list for PBXNativeTarget "Pay?UITests" */ = {
+		7FCFDADB2256B87200F7BEA0 /* Build configuration list for PBXNativeTarget "PayMapUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7FCFDADC2256B87200F7BEA0 /* Debug */,
@@ -616,19 +612,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		7FCFDAB42256B86E00F7BEA0 /* Pay_.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				7FCFDAB52256B86E00F7BEA0 /* Pay_.xcdatamodel */,
-			);
-			currentVersion = 7FCFDAB52256B86E00F7BEA0 /* Pay_.xcdatamodel */;
-			path = Pay_.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 7FCFDAA22256B86E00F7BEA0 /* Project object */;
 }

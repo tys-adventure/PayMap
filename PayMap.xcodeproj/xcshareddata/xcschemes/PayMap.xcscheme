@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7FCFDAA92256B86E00F7BEA0"
-               BuildableName = "Pay?.app"
-               BlueprintName = "Pay?"
-               ReferencedContainer = "container:Pay?.xcodeproj">
+               BuildableName = "PayMap.app"
+               BlueprintName = "PayMap"
+               ReferencedContainer = "container:PayMap.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7FCFDAC02256B87200F7BEA0"
-               BuildableName = "Pay?Tests.xctest"
-               BlueprintName = "Pay?Tests"
-               ReferencedContainer = "container:Pay?.xcodeproj">
+               BuildableName = "PayMapTests.xctest"
+               BlueprintName = "PayMapTests"
+               ReferencedContainer = "container:PayMap.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7FCFDACB2256B87200F7BEA0"
-               BuildableName = "Pay?UITests.xctest"
-               BlueprintName = "Pay?UITests"
-               ReferencedContainer = "container:Pay?.xcodeproj">
+               BuildableName = "PayMapUITests.xctest"
+               BlueprintName = "PayMapUITests"
+               ReferencedContainer = "container:PayMap.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -65,9 +65,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7FCFDAA92256B86E00F7BEA0"
-            BuildableName = "Pay?.app"
-            BlueprintName = "Pay?"
-            ReferencedContainer = "container:Pay?.xcodeproj">
+            BuildableName = "PayMap.app"
+            BlueprintName = "PayMap"
+            ReferencedContainer = "container:PayMap.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -82,9 +82,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7FCFDAA92256B86E00F7BEA0"
-            BuildableName = "Pay?.app"
-            BlueprintName = "Pay?"
-            ReferencedContainer = "container:Pay?.xcodeproj">
+            BuildableName = "PayMap.app"
+            BlueprintName = "PayMap"
+            ReferencedContainer = "container:PayMap.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
