@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27C367F82337959E0027C03C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C367F72337959E0027C03C /* SceneDelegate.swift */; };
+		27C367FA233795C70027C03C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C367F9233795C70027C03C /* ContentView.swift */; };
+		27C367FC233797550027C03C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C367FB233797550027C03C /* MapView.swift */; };
 		7FBCBD7322904E9B007F0056 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBCBD7222904E9B007F0056 /* CardViewController.swift */; };
 		7FBCBD7522904EB1007F0056 /* GenresCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FBCBD7422904EB1007F0056 /* GenresCardViewController.xib */; };
 		7FBCBD7722904ED4007F0056 /* CardViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBCBD7622904ED4007F0056 /* CardViewExtension.swift */; };
@@ -18,7 +21,6 @@
 		7FCFDABB2256B87200F7BEA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FCFDAB92256B87200F7BEA0 /* LaunchScreen.storyboard */; };
 		7FCFDAC62256B87200F7BEA0 /* Pay_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCFDAC52256B87200F7BEA0 /* Pay_Tests.swift */; };
 		7FCFDAD12256B87200F7BEA0 /* Pay_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCFDAD02256B87200F7BEA0 /* Pay_UITests.swift */; };
-		7FCFDADF2256B97600F7BEA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FCFDADE2256B97600F7BEA0 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27C367F72337959E0027C03C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		27C367F9233795C70027C03C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		27C367FB233797550027C03C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		7FBCBD7222904E9B007F0056 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 		7FBCBD7422904EB1007F0056 /* GenresCardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GenresCardViewController.xib; sourceTree = "<group>"; };
 		7FBCBD7622904ED4007F0056 /* CardViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewExtension.swift; sourceTree = "<group>"; };
@@ -56,7 +61,6 @@
 		7FCFDACC2256B87200F7BEA0 /* Pay?UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pay?UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FCFDAD02256B87200F7BEA0 /* Pay_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pay_UITests.swift; sourceTree = "<group>"; };
 		7FCFDAD22256B87200F7BEA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7FCFDADE2256B97600F7BEA0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,8 +124,10 @@
 			children = (
 				7FBCBD7122904E56007F0056 /* Menu */,
 				7FCFDAAD2256B86E00F7BEA0 /* AppDelegate.swift */,
+				27C367F72337959E0027C03C /* SceneDelegate.swift */,
+				27C367F9233795C70027C03C /* ContentView.swift */,
+				27C367FB233797550027C03C /* MapView.swift */,
 				7FCFDAAF2256B86E00F7BEA0 /* ViewController.swift */,
-				7FCFDADE2256B97600F7BEA0 /* Main.storyboard */,
 				7FCFDAB72256B87100F7BEA0 /* Assets.xcassets */,
 				7FCFDAB92256B87200F7BEA0 /* LaunchScreen.storyboard */,
 				7FCFDABC2256B87200F7BEA0 /* Info.plist */,
@@ -252,7 +258,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FCFDADF2256B97600F7BEA0 /* Main.storyboard in Resources */,
 				7FCFDABB2256B87200F7BEA0 /* LaunchScreen.storyboard in Resources */,
 				7FBCBD7522904EB1007F0056 /* GenresCardViewController.xib in Resources */,
 				7FCFDAB82256B87100F7BEA0 /* Assets.xcassets in Resources */,
@@ -281,10 +286,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FBCBD7322904E9B007F0056 /* CardViewController.swift in Sources */,
+				27C367F82337959E0027C03C /* SceneDelegate.swift in Sources */,
+				27C367FA233795C70027C03C /* ContentView.swift in Sources */,
 				7FBCBD792290502E007F0056 /* MenuOptionCell.swift in Sources */,
 				7FCFDAB02256B86E00F7BEA0 /* ViewController.swift in Sources */,
 				7FCFDAB62256B86E00F7BEA0 /* Pay_.xcdatamodeld in Sources */,
 				7FBCBD7722904ED4007F0056 /* CardViewExtension.swift in Sources */,
+				27C367FC233797550027C03C /* MapView.swift in Sources */,
 				7FCFDAAE2256B86E00F7BEA0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,7 +391,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -438,7 +446,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -455,6 +463,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S86X46J5MH;
 				INFOPLIST_FILE = "Pay?/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,7 +471,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "co.tylercodes.Pay.Pay-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -473,6 +482,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S86X46J5MH;
 				INFOPLIST_FILE = "Pay?/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,7 +490,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "co.tylercodes.Pay.Pay-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
